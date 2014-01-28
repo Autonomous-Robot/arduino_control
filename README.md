@@ -3,7 +3,7 @@ arduino_control
 
 code for Arduino control sketch 
 
-Arduino control is a Arduino sketch of controlling the four motors of the Robot. It needs rosserial package.
+Arduino control is a Arduino sketch of controlling the four motors of the Robot. It needs [rosserial](http://wiki.ros.org/rosserial_arduino/Tutorials/Arduino%20IDE%20Setup) package and [webtools](https://github.com/Autonomous-Robot/webtools)
 
 ###Installation:
 
@@ -14,7 +14,9 @@ Arduino control is a Arduino sketch of controlling the four motors of the Robot.
 2. Install arduino_control
 
         git clont https://github.com/Autonomous-Robot/arduino_control.git
-    
+
+3. Install [webtools](https://github.com/Autonomous-Robot/webtools)
+        
 ###Configuration
 
 1. Change permisson of serial port of Arduino
